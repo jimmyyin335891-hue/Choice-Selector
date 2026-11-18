@@ -1466,12 +1466,16 @@ def reset(state: State) -> Page:
 # ==================================================
 
 set_site_information(
-    "Your Name",
-    (
-        "TinyDecisions is a website that helps users "
+    author="Jimmy Yin",
+    description="TinyDecisions is a website that helps users "
         "make decisions by offering several different "
-        "ways to select between their choices."
-    ),
+        "ways to select between their choices.",
+    sources="Chat Gpt",
+    planning=["Copy of CS1 Final Project 0_ Pick a Problem (1).docx", "Copy of CS1 Final Project 1_ Design (1) (1).docx","Ai chatlog 1.pdf", "Ai chatlog 2.pdf"],
+    link=["https://github.com/jimmyyin335891-hue/Choice-Selector/blob/main/Ai%20chatlog%201.pdf",
+          "https://github.com/jimmyyin335891-hue/Choice-Selector/blob/main/Ai%20chatlog%202.pdf",
+          "https://github.com/jimmyyin335891-hue/Choice-Selector/blob/main/Copy%20of%20CS1%20Final%20Project%200_%20Pick%20a%20Problem%20(1).docx",
+          "https://github.com/jimmyyin335891-hue/Choice-Selector/blob/main/Copy%20of%20CS1%20Final%20Project%201_%20Design%20(1)%20(1).docx"],
     (
         "Drafter documentation: "
         "https://drafter-edu.github.io/drafter/"
